@@ -1,0 +1,28 @@
+class NewsPaper{
+
+   String companyName;
+   int id;
+   int noOfPages;
+   String language;
+   
+public NewsPaper(String companyName,int id,String noOfPages,String language){
+               
+               System.out.println("NewsPaper started");
+                 this.companyName = companyName;
+                 this.id   = id;
+                 this.noOfPages =noOfPages;
+				 this.language=language;
+                System.out.println("NewsPaper ended"); 
+                
+ }
+      
+public void displayNewsPaperInfo(){
+           System.out.println("The company Name is"+this.companyName);
+           System.out.println("The id is"+this.id);
+           System.out.println("The no Of Pages "+this.noOfPages);
+		   System.out.println("The language is"+this.language);
+           
+      }
+	
+
+}
